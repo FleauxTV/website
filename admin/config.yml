@@ -62,6 +62,7 @@ collections:
               - label: "Services"
               - name: "service"
               - widget: "list"
+              - field:
                 - {label: "Nom du service", name: "titre", widget: "string"}
                 - {label: "Image de service", name: "image", widget: "image"}
                 - {label: "Description du service", name: "description", widget: "markdown"}      
