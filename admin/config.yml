@@ -26,8 +26,30 @@ collections:
     create: true
     slug: "{{slug}}"
     fields: # The fields for each pages
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "thumbnail image", name: "thumbnail image", widget: "image"}
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image bannière", name: "banniere", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+
+  - name: "projets"
+    label: Projets"
+    folder: "_projets"
+    create: true
+    slug: "{{slug}}"
+    fields: # Fields pour toutes les pages projets
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image bannière", name: "banniere", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - label: "Gallerie lightbox" # Gallerie lightbox
+            name: "gallerie"
+            widget: "object"
+            fields:
+              - label: "Images"
+              - name: "Images"
+              - widget: "list"
+              - fields: 
+                - {label: "Titre", name: "titre", widget: "string"}
+                - {label: "Sous-titre", name: "soustitre", widget: "string", required: false}
+                - {label: "Image", name: "image", widget: "image"}
       - {label: "Texte", name: "body", widget: "markdown"}
 
   - name: "homepage"
@@ -44,28 +66,35 @@ collections:
               - {label: "Titre", name: "title", widget: "string"}
               - {label: "Sous-titre", name: "soustitre", widget: "string"}
               - {label: "Image", name: "banner", widget: "image", required: false}
-          - label: "Gallerie lightbox" # Gallerie lightbox
-            name: "gallerie"
+          - label: "Miniatures" # Miniatures
+            name: "miniatures"
             widget: "object"
             fields:
-              - label: "Images"
-              - name: "Images"
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - label: "slider"
+              - name: "slider"
               - widget: "list"
               - fields: 
-                - {label: "Titre", name: "titre", widget: "string"}
-                - {label: "Sous-titre", name: "soustitre", widget: "string", required: false}
                 - {label: "Image", name: "image", widget: "image"}
-          - label: "Liste de services" # Services
-            name: "services"
+          - label : "Motion design" # Motion design
+            name: "motion"
             widget: "object"
-            fields:
-              - label: "Services"
-              - name: "service"
-              - widget: "list"
-              - field:
-                - {label: "Nom du service", name: "titre", widget: "string"}
-                - {label: "Image de service", name: "image", widget: "image"}
-                - {label: "Description du service", name: "description", widget: "markdown"}      
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - {label: "Video", name: "video", widget: "string"}
+          - label : "Montage video" # Montage
+            name: "montage"
+            widget: "object"
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {label: "Lien projet", name: "lien", widget: "string", required: false}
+              - {label: "Video", name: "video", widget: "string"} 
+          - {label: "slogan", name: "slogan", widget: "markdown", required: false}  
           - label: "Liste de clients" # Clients
             name: "clients"
             widget: "object"
@@ -76,5 +105,6 @@ collections:
               - label: "Réseaux sociaux"
               - name: "social"
               - widget: "list"
+              - fields:
                 - {label: "Icone font-awesome", name: "icon", widget: "string"}
                 - {label: "Lien réseau", name: "link", widget: "string"}     
