@@ -60,11 +60,11 @@ collections:
             widget: "object"
             fields:
               - label: "Services"
-                name: "service"
-                widget: "list"
-                  - {label: "Nom du service", name: "titre", widget: "string"}
-                  - {label: "Image de service", name: "image", widget: "image"}
-                  - {label: "Description du service", name: "description", widget: "markdown"}      
+              - name: "service"
+              - widget: "list"
+                - {label: "Nom du service", name: "titre", widget: "string"}
+                - {label: "Image de service", name: "image", widget: "image"}
+                - {label: "Description du service", name: "description", widget: "markdown"}      
           - label: "Liste de clients" # Clients
             name: "clients"
             widget: "object"
@@ -73,7 +73,7 @@ collections:
               - {label: "Profession du client", name: "profession", widget: "string"} 
               - {label: "Image du client", name: "image", widget: "image"}
               - label: "Réseaux sociaux"
-                name: "social"
-                widget: "list"
-                  - {label: "Icone font-awesome", name: "icon", widget: "string"}
-                  - {label: "Lien réseau", name: "link", widget: "string"}     
+              - name: "social"
+              - widget: "list"
+                - {label: "Icone font-awesome", name: "icon", widget: "string"}
+                - {label: "Lien réseau", name: "link", widget: "string"}     
