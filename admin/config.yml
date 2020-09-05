@@ -98,7 +98,7 @@ collections:
           - {label: "slogan", name: "slogan", widget: "markdown", required: false}  
           - label: "Liste de clients" # Clients
             name: "clients"
-            widget: "object"
+            widget: "list"
             fields:
               - {label: "Nom du client", name: "nom", widget: "string"}
               - {label: "Profession du client", name: "profession", widget: "string"} 
