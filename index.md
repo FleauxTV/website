@@ -44,6 +44,6 @@ clients:
     profession: Streameur
     image: /uploads/moman.jpg
     social:
-      - link: https://twitter.com/MoMaNuS
-        icon: fa-twitter
+      - lien: https://twitter.com/MoMaNuS
+        icone: fa-twitter
 ---

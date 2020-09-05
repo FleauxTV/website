@@ -13,10 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: FleauxTV
+title: FleauxTV - Graphiste, Motion designer & Monteur vidéo
 email: "fleauxtv@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Frenchy website
+Je suis un Graphiste, Motion designer & monteur vidéo basé près de Grenoble, FRANCE.
+Vous trouverez sur ce site des exemples de réalisations, ainsi que les projets sur 
+lesquelles j'ai eu le plaisir de collaborer.
+  
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -54,4 +57,6 @@ collections:
   posts:
       output: true
       permalink: /blog/:path/
+
+  
    

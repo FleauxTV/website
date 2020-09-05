@@ -8,6 +8,29 @@ publish_mode: editorial_workflow
 media_folder: "uploads"
 
 collections:
+  - name: "Settings du site" # Settings site
+    label: "websitesettings"
+    files:
+      - label: "Settings"
+        name: "settings"
+        file: "_config.yml"
+        fields:
+          - {label: "titre", name: "title", widget: "string"}
+          - {label : "email", name: "email", widget: "string"}
+          - {label : "Description", name: "description", widget: "string"}
+          - label: "Footer info"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - label: "social"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Icone font-awesome", name: "icon", widget: "string"}
+                  - {label: "Lien réseaux social", name: "link", widget: "string"}
+
   - name: "Articles"
     label: "Articles"
     folder: "_posts"
@@ -96,16 +119,22 @@ collections:
               - {label: "Lien projet", name: "lien", widget: "string", required: false}
               - {label: "Video", name: "video", widget: "string"} 
           - {label: "slogan", name: "slogan", widget: "markdown", required: false}  
-          - label: "Liste de clients" # Clients
-            name: "clients"
-            widget: "list"
-            fields:
-              - {label: "Nom du client", name: "nom", widget: "string"}
-              - {label: "Profession du client", name: "profession", widget: "string"} 
-              - {label: "Image du client", name: "image", widget: "image"}
-              - label: "Réseaux sociaux"
-                name: "social"
+          - label: "Section client" # Clients
+            name: "sectionclient"
+            widget: "object"
+            fields: 
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+              - label: "Liste de clients"
+                name: "clients"
                 widget: "list"
                 fields:
-                - {label: "Icone font-awesome", name: "icon", widget: "string"}
-                - {label: "Lien réseau", name: "link", widget: "string"}     
+                  - {label: "Nom du client", name: "nom", widget: "string"}
+                  - {label: "Profession du client", name: "profession", widget: "string"} 
+                  - {label: "Image du client", name: "image", widget: "image"}
+                  - label: "Réseaux sociaux"
+                    name: "social"
+                    widget: "list"
+                    fields:
+                    - {label: "Icone font-awesome", name: "icone", widget: "string"}
+                    - {label: "Lien réseau", name: "lien", widget: "string"}     

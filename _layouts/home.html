@@ -21,7 +21,7 @@ layout: default
 				<p>{{page.miniatures.description}}</p>
 			</div>
 		</div>
-		<div class="col-lg-6">
+		<div class="col-lg-6 p-0">
 			<!-- debut slider -->
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			  <div class="carousel-inner">
@@ -52,3 +52,75 @@ layout: default
 	</div>
 </div>
 <!-- Fin section miniature -->
+
+<!-- Debut section motion design -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 p-0">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="{{ site.baseurl }}{{ page.motion.video }}" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-lg-6 p-5 m-auto">
+			<div class="w-75 m-auto">
+				<h1>{{page.motion.titre}}</h1>
+				<p>{{page.motion.description}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Fin section motion design -->
+
+<!-- Debut section motion design -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 p-5 m-auto">
+			<div class="w-75 m-auto">
+				<h1>{{page.montage.titre}}</h1>
+				<p>{{page.montage.description}}</p>
+			</div>
+		</div>
+		<div class="col-lg-6 p-0">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="{{ site.baseurl }}{{ page.montage.video }}" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Fin section motion design -->
+
+<!-- Section client -->
+<div class="container">
+	<div class="text-center">
+		<h1>{{ page.sectionclient.titre }}</h1>
+		<p>{{ page.sectionclient.description }}</p>
+	</div>
+
+	<!-- Affichage des clients -->
+  	<div class="row">
+		<!-- Condition par client -->
+		{% for clients in page.sectionclient.clients %}
+		<div class="col-lg-3 col-sm-6 mb-4">
+		<div class="avatar">
+			<img src="{{ site.baseurl }}{{ clients.image }}" class="w-75 rounded-circle img-fluid z-depth-1"
+			alt="Sample avatar">
+		</div>
+		<h5 class="font-weight-bold mt-4">{{ clients.nom }}</h5>
+		<p class="text-uppercase blue-text"><strong>{{ clients.profession }}</strong></p>
+		<ul class="list-unstyled mb-0">
+			<!-- Condition réseaux sociaux -->
+			<!-- Twitch -->
+			{% for social in client.social %}
+			<a class="p-2 fa-lg text-decoration-none" href="{{ social.link }}" target="_blank">
+			<i class="fab {{ social.icon }}"></i>
+			</a>
+			{% endfor %} 
+		</ul>
+		</div>
+		{% endfor %} 
+		<!-- Fin condition par client --> 
+	</div>
+</div>
+
+
+
