@@ -31,7 +31,7 @@ collections:
       - {label: "Texte", name: "body", widget: "markdown"}
 
   - name: "projets"
-    label: Projets"
+    label: "Projets"
     folder: "_projets"
     create: true
     slug: "{{slug}}"
