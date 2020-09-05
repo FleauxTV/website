@@ -8,8 +8,8 @@ publish_mode: editorial_workflow
 media_folder: "uploads"
 
 collections:
-  - name: "Settings du site" # Settings site
-    label: "websitesettings"
+  - name: "websitesettings" # Settings site
+    label: "Settings du site"
     files:
       - label: "Settings"
         name: "settings"

@@ -1,8 +1,8 @@
 /* Custom theme pour FrenchyFPS */
 
 body {
-    background-color:#26272b;
-    color: #ffffff;
+    background-color:#FFFFFF;
+    color: #767676;
     height:100vh;
 }
 
@@ -27,7 +27,8 @@ pre {
 }
 
 .page-footer {
-	background-color:#202125;
+    background-color:#202125;
+    color: #FFFFFF;
 }
 
 .card {
