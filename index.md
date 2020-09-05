@@ -24,7 +24,7 @@ motion:
     Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
     fringilla vehicula, augue eros condimentum est, eget tristique elit ante
     quis lorem. "
-  video: https://www.youtube.com/watch?v=_BnHtA1dpbc
+  video: _BnHtA1dpbc
 montage:
   titre: MONTAGE VIDEO
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
@@ -33,7 +33,7 @@ montage:
     Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
     fringilla vehicula, augue eros condimentum est, eget tristique elit ante
     quis lorem. "
-  video: https://www.youtube.com/watch?v=Pb2ebg5akPE
+  video: Pb2ebg5akPE
 slogan: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et arcu
   malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas felis.
   Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna. Vivamus
