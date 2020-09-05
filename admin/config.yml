@@ -30,7 +30,28 @@ collections:
       - {label: "Image bannière", name: "banniere", widget: "image"}
       - {label: "Texte", name: "body", widget: "markdown"}
 
-
+  - name: "projets"
+    label: Projets"
+    folder: "_projets"
+    create: true
+    slug: "{{slug}}"
+    fields: # Fields pour toutes les pages projets
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image bannière", name: "banniere", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - label: "Gallerie lightbox" # Gallerie lightbox
+        name: "gallerie"
+        widget: "object"
+        fields:
+          - label: "Images"
+            name: "Images"
+            widget: "list"
+            fields: 
+            - {label: "Titre", name: "titre", widget: "string"}
+            - {label: "Sous-titre", name: "soustitre", widget: "string", required: false}
+            - {label: "Image", name: "image", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      
 
   - name: "homepage"
     label: "Home page"
