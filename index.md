@@ -24,7 +24,7 @@ motion:
     Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
     fringilla vehicula, augue eros condimentum est, eget tristique elit ante
     quis lorem. "
-  video: BnHtA1dpbc
+  video: _BnHtA1dpbc
 montage:
   titre: MONTAGE VIDEO
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
