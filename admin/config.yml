@@ -8,28 +8,28 @@ publish_mode: editorial_workflow
 media_folder: "uploads"
 
 collections:
-#  - name: "Settings du site" # Settings site
-#    label: "websitesettings"
-#    files:
-#      - label: "Settings"
-#        name: "settings"
-#        file: "_config.yml"
-#        fields:
-#          - {label: "titre", name: "title", widget: "string"}
-#          - {label : "email", name: "email", widget: "string"}
-#          - {label : "Description", name: "description", widget: "string"}
-#          - label: "Footer info"
-#            name: "footer"
-#            widget: "object"
-#            fields:
-#              - {label: "Titre", name: "title", widget: "string"}
-#              - {label: "Description", name: "description", widget: "string"}
-#              - label: "social"
-#                name: "social"
-#                widget: "list"
-#                fields:
-#                  - {label: "Icone font-awesome", name: "icon", widget: "string"}
-#                  - {label: "Lien réseaux social", name: "link", widget: "string"}
+  - name: "Settings du site" # Settings site
+    label: "websitesettings"
+    files:
+      - label: "Settings"
+        name: "settings"
+        file: "_config.yml"
+        fields:
+          - {label: "titre", name: "title", widget: "string"}
+          - {label : "email", name: "email", widget: "string"}
+          - {label : "Description", name: "description", widget: "string"}
+          - label: "Footer info"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - label: "social"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Icone font-awesome", name: "icon", widget: "string"}
+                  - {label: "Lien réseaux social", name: "link", widget: "string"}
 
   - name: "Articles"
     label: "Articles"
