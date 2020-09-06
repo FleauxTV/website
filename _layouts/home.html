@@ -13,10 +13,10 @@ layout: default
 
 
 <!-- Section miniatures -->
-<div class="container-fluid"> <!-- Portofolio part 1 -->
+<div class="container py-5"> <!-- Portofolio part 1 -->
 	<div class="row">
-		<div class="col-lg-6 p-5 m-auto">
-			<div class="w-75 m-auto">
+		<div class="col-lg-6 p-4 m-auto">
+			<div class="m-auto">
 				<h1>{{page.miniatures.titre}}</h1>
 				<p>{{page.miniatures.description}}</p>
 			</div>
@@ -54,15 +54,15 @@ layout: default
 <!-- Fin section miniature -->
 
 <!-- Debut section motion design -->
-<div class="container-fluid">
+<div class="container colored-section py-5">
 	<div class="row">
 		<div class="col-lg-6 p-0">
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ site.baseurl }}{{ page.motion.video }}" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div class="col-lg-6 p-5 m-auto">
-			<div class="w-75 m-auto">
+		<div class="col-lg-6 p-4 m-auto">
+			<div class="m-auto">
 				<h1>{{page.motion.titre}}</h1>
 				<p>{{page.motion.description}}</p>
 			</div>
@@ -72,10 +72,10 @@ layout: default
 <!-- Fin section motion design -->
 
 <!-- Debut section motion design -->
-<div class="container-fluid">
+<div class="container py-5">
 	<div class="row">
-		<div class="col-lg-6 p-5 m-auto">
-			<div class="w-75 m-auto">
+		<div class="col-lg-6 p-4 m-auto">
+			<div class="m-auto">
 				<h1>{{page.montage.titre}}</h1>
 				<p>{{page.montage.description}}</p>
 			</div>
@@ -90,14 +90,14 @@ layout: default
 <!-- Fin section motion design -->
 
 <!-- Section client -->
-<div class="container">
+<div class="jumbotron bg-white">
 	<div class="text-center">
 		<h1>{{ page.sectionclient.titre }}</h1>
 		<p>{{ page.sectionclient.description }}</p>
 	</div>
 
 	<!-- Affichage des clients -->
-  	<div class="row">
+  	<div class="row text-center">
 		<!-- Condition par client -->
 		{% for clients in page.sectionclient.clients %}
 		<div class="col-lg-3 col-sm-6 mb-4">
@@ -110,7 +110,7 @@ layout: default
 		<ul class="list-unstyled mb-0">
 			<!-- Condition réseaux sociaux -->
 			<!-- Twitch -->
-			{% for social in client.social %}
+			{% for social in clients.social %}
 			<a class="p-2 fa-lg text-decoration-none" href="{{ social.link }}" target="_blank">
 			<i class="fab {{ social.icon }}"></i>
 			</a>
