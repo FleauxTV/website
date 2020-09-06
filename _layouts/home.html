@@ -13,7 +13,7 @@ layout: default
 
 
 <!-- Section miniatures -->
-<div class="container py-5"> <!-- Portofolio part 1 -->
+<div class="container py-5 featured-section"> <!-- Portofolio part 1 -->
 	<div class="row">
 		<div class="col-lg-6 p-4 m-auto">
 			<div class="m-auto">
@@ -54,7 +54,8 @@ layout: default
 <!-- Fin section miniature -->
 
 <!-- Debut section motion design -->
-<div class="container colored-section py-5">
+<div class="container-fluid featured-colored-section">
+<div class="container py-5">
 	<div class="row">
 		<div class="col-lg-6 p-0">
 			<div class="embed-responsive embed-responsive-16by9">
@@ -69,10 +70,11 @@ layout: default
 		</div>
 	</div>
 </div>
+</div>
 <!-- Fin section motion design -->
 
 <!-- Debut section motion design -->
-<div class="container py-5">
+<div class="container py-5 featured-section">
 	<div class="row">
 		<div class="col-lg-6 p-4 m-auto">
 			<div class="m-auto">
@@ -91,6 +93,7 @@ layout: default
 
 <!-- Section client -->
 <div class="jumbotron bg-white">
+	<div class="container">
 	<div class="text-center">
 		<h1>{{ page.sectionclient.titre }}</h1>
 		<p>{{ page.sectionclient.description }}</p>
@@ -110,7 +113,7 @@ layout: default
 		<ul class="list-unstyled mb-0">
 			<!-- Condition réseaux sociaux -->
 			<!-- Twitch -->
-			{% for social in clients.social %}
+			{% for social in page.sectionclient.clients.social %}
 			<a class="p-2 fa-lg text-decoration-none" href="{{ social.link }}" target="_blank">
 			<i class="fab {{ social.icon }}"></i>
 			</a>
@@ -119,6 +122,7 @@ layout: default
 		</div>
 		{% endfor %} 
 		<!-- Fin condition par client --> 
+	</div>
 	</div>
 </div>
 

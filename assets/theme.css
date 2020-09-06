@@ -26,9 +26,10 @@ pre {
 h1 {
     font-weight:bold;
     color: #673ab7;
+    margin-bottom: 0.8em;
 }
 
-h1:after {
+.featured-section h1:after {
     content:"";
     position: absolute;
     display:block;
@@ -50,11 +51,11 @@ h1:after {
     border:none;
 }
 
-.colored-section {
+.featured-colored-section {
     background-color: #673ab7;
 }
 
-.colored-section h1 {
+.featured-colored-section h1 {
     color: white;
 }
 
