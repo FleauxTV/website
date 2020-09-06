@@ -113,8 +113,8 @@ layout: default
 		<ul class="list-unstyled mb-0">
 			<!-- Condition réseaux sociaux -->
 			{% for social in clients.social %}
-			<a class="p-2 fa-lg text-decoration-none" href="{{ info.lien }}" target="_blank">
-			<i class="fab {{ info.icone }}"></i>
+			<a class="p-2 fa-lg text-decoration-none" href="{{ social.lien }}" target="_blank">
+			<i class="fab {{ social.icone }}"></i>
 			</a>
 			{% endfor %}
 			<!-- Fin condition réseaux sociaux --> 
