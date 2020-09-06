@@ -112,9 +112,9 @@ layout: default
 		<p class="text-uppercase blue-text"><strong>{{ clients.profession }}</strong></p>
 		<ul class="list-unstyled mb-0">
 			<!-- Condition réseaux sociaux -->
-			{% for info in clients.social %}
-			<a class="p-2 fa-lg text-decoration-none" href="{{ info.link }}" target="_blank">
-			<i class="fab {{ info.icon }}"></i>
+			{% for social in clients.social %}
+			<a class="p-2 fa-lg text-decoration-none" href="{{ info.lien }}" target="_blank">
+			<i class="fab {{ info.icone }}"></i>
 			</a>
 			{% endfor %}
 			<!-- Fin condition réseaux sociaux --> 
