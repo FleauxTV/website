@@ -43,7 +43,7 @@ clients:
         icone: fa-twitter
 sectionclient:
   titre: Ils me font confiance !
-  description: Voici quelques-unes des personnes avec qui j'ai eu la chance de collaborer.
+  description: Voici quelques-unes des personnes avec qui j'ai eu l'occasion de collaborer.
   clients:
     - nom: MoMaN
       profession: STREAMER
