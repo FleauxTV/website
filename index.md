@@ -3,13 +3,10 @@ banniere:
   title: Titre
   soustitre: Titre
 miniatures:
-  titre: MINIATURES
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-    arcu malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas
-    felis. Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna.
-    Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
-    fringilla vehicula, augue eros condimentum est, eget tristique elit ante
-    quis lorem. "
+  titre: GRAPHIC DESIGN
+  description: Je réalises des éléments graphiques divers tels que des miniatures
+    de vidéo (youtube), des bannières, des éléments d'interfaces (overlay,
+    boutons...), ainsi que de la photo manipulation et de la retouche photo.
   slider:
     - image: /uploads/moman-1.jpg
     - image: /uploads/fitness-1.jpg
@@ -18,21 +15,18 @@ miniatures:
     - image: /uploads/fitness-2.jpg
 motion:
   titre: MOTION DESIGN
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-    arcu malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas
-    felis. Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna.
-    Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
-    fringilla vehicula, augue eros condimentum est, eget tristique elit ante
-    quis lorem. "
+  description: Je réalises des animations personnalisées d'images et d’éléments 2D
+    ou 3D.  Cela peut être des animations de textes ou éléments d'interfaces
+    (transition, overlay, début de live...) ou la création de lower third
+    (réseaux sociaux...)
   video: _BnHtA1dpbc
 montage:
   titre: MONTAGE VIDEO
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-    arcu malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas
-    felis. Nulla ante justo, pulvinar ut rhoncus in, tristique egestas magna.
-    Vivamus ultrices lacus a ullamcorper lacinia. Quisque laoreet, lacus eu
-    fringilla vehicula, augue eros condimentum est, eget tristique elit ante
-    quis lorem. "
+  description: "Il s'agit de montage vidéo sur mesure, de tous types. Pour les
+    productions les plus travaillées (type \"edit\"), un accent sera
+    particulièrement mis sur la synchronisation avec la musique et le dynamisme.
+    Des montages plus sobres sont également possible (type best of, ou
+    condensé). "
   video: Pb2ebg5akPE
 slogan: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et arcu
   malesuada, interdum lorem et, elementum mauris. Aenean sit amet egestas felis.
