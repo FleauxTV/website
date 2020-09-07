@@ -89,7 +89,7 @@ collections:
             fields:
               - {label: "Titre", name: "title", widget: "string"}
               - {label: "Sous-titre", name: "soustitre", widget: "string"}
-              - {label: "Image", name: "banner", widget: "image", required: false}
+              - {label: "Image", name: "banniere", widget: "image", required: false}
           - label: "Miniatures" # Miniatures
             name: "miniatures"
             widget: "object"

@@ -8,6 +8,23 @@ body {
     font-weight: 200;
 }
 
+.navbar {
+    background-color: #673ab7 !important;
+}
+
+.navbar a {
+    color: #FFF !important;
+}
+
+.sitebanner h1 {
+    color: #FFF !important;
+    font-weight: bold;
+}
+.sitebanner h2 {
+    color: #FFF !important;
+    font-weight: bold;
+}
+
 table, th, td {
     border: 1px solid;   
 }
