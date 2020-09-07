@@ -1,6 +1,6 @@
 ---
 banniere:
-  title: FleauxTV
+  titre: FleauxTV
   soustitre: "Graphiste, motion designer et monteur vidéo. "
   banniere: /uploads/banner.png
 miniatures:
