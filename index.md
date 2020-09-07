@@ -72,4 +72,70 @@ sectionclient:
           lien: https://www.instagram.com/screamdak1ng
         - lien: https://www.facebook.com/ScreaMdAK1nG/
           icone: fa-facebook-f
+    - nom: ZywOo
+      profession: PRO-PLAYER
+      image: /uploads/zywoo.jpg
+      social:
+        - lien: https://twitter.com/zywoo
+          icone: fa-twitter
+        - lien: https://www.instagram.com/cs_zywoo
+          icone: fa-instagram
+    - nom: shox
+      profession: PRO-PLAYER
+      image: /uploads/shox.jpg
+      social:
+        - icone: fa-twitch
+          lien: https://www.twitch.tv/shoxiejesuss
+        - lien: https://twitter.com/shoxCSGO
+          icone: fa-twitter
+        - lien: https://www.facebook.com/Officialshox/
+          icone: fa-facebook-f
+        - lien: https://www.instagram.com/shoxcsgo_
+          icone: fa-instagram
+    - nom: apeX
+      profession: PRO-PLAYER
+      image: /uploads/apex.jpg
+      social:
+        - lien: https://www.twitch.tv/apex
+          icone: fa-twitch
+        - lien: https://twitter.com/Vitality_apEX
+          icone: fa-twitter
+        - lien: https://www.youtube.com/channel/UC_eAIxEDrIZYVWWdKsg_sqQ
+          icone: fa-youtube
+        - lien: https://www.instagram.com/apexcsgo
+          icone: fa-instagram
+    - nom: Teufeur
+      profession: STREAMEUR
+      image: /uploads/teufeur.jpg
+      social:
+        - lien: https://www.twitch.tv/Teuf
+          icone: fa-twitch
+        - lien: https://twitter.com/TeufeurSoff
+          icone: fa-twitter
+        - lien: https://www.youtube.com/user/KilliansWideo
+          icone: fa-youtube
+        - lien: https://www.instagram.com/teufeurs_live/
+          icone: fa-instagram
+    - nom: LeFouBruiteur
+      profession: STREAMEUR
+      image: /uploads/lfb.jpg
+      social:
+        - lien: https://www.twitch.tv/lefoubruiteur
+          icone: fa-twitch
+        - lien: https://twitter.com/LeFouBruiteur
+          icone: fa-twitter
+        - lien: https://www.youtube.com/channel/UC_mZv75YMtfzf3oGCico1rA
+          icone: fa-youtube
+        - lien: https://www.instagram.com/lefoubruiteurofficiel/
+          icone: fa-instagram
+    - nom: akeR
+      profession: STREAMEUR
+      image: /uploads/aker.jpg
+      social:
+        - lien: https://www.twitch.tv/akeR_
+          icone: fa-twitch
+        - lien: https://twitter.com/akeR____
+          icone: fa-twitter
+        - lien: https://www.instagram.com/mane_aker/
+          icone: fa-instagram
 ---
