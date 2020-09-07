@@ -29,6 +29,7 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Icone font-awesome", name: "icon", widget: "string"}
+                  - {label: "Nom du lien", name: "name", widget: "string"}
                   - {label: "Lien réseaux social", name: "link", widget: "string"}
 
   - name: "Articles"

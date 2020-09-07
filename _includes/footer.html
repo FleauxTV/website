@@ -11,7 +11,7 @@
 
         <!-- Content -->
         <h5 class="text-uppercase">{{ site.title }}</h5>
-        <p>Toi aussi, entres dans la légende !</p>
+        <p></p>
 
       </div>
       <!-- Grid column -->
@@ -24,18 +24,11 @@
         <!-- Links -->
         <h5 class="text-uppercase">Réseaux sociaux</h5>
         <ul class="list-unstyled">
+          {% for social in site.footer.social %}	
           <li>
-            <a href="https://twitter.com/frenchy_fps" class="text-danger" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+            <a href="{{ social.link }}" target="_blank"><i class="fa {{ social.icon }}" aria-hidden="true"></i> {{ social.name }}</a>
           </li>
-          <li>
-            <a href="https://www.twitch.tv/frenchyFPS" class="text-danger" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/UCBwa4p3rkHU9WLafovlzmJA?view_as=subscriber" class="text-danger" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
-          </li>
-          <li>
-            <a href="https://discord.com/invite/r62EGVT" class="text-danger"><i class="fab fa-discord" target="_blank"></i> Discord</a>
-          </li>
+          {% endfor %} 
         </ul>
       </div>
       <!-- Grid column -->
