@@ -15,10 +15,10 @@ title: Blog
           <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
           <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
         </div>
-        <div class="card-footer text-muted">
-          Posté le 
-          {%- assign date_format = "%-d %B %Y" -%}
-          {{ page.date | date: date_format }}
+        <div class="card-footer text-muted" style="color:#FFF;">
+          <span>Posté le </span>
+          <span>{%- assign date_format = "%-d %B %Y" -%}
+          {{ post.date | date: date_format }}</div>span>
         </div>
       </div>
     </div>
@@ -34,10 +34,10 @@ title: Blog
 				 <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
 				 <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
 			</div>
-			<div class="card-footer text-muted">
+			<div class="card-footer text-muted" style="color:#FFF;">
         Posté le 
         {%- assign date_format = "%-d %B %Y" -%}
-        {{ page.date | date: date_format }}
+        {{ post.date | date: date_format }}
 			</div>
 		</div>	
 	</div>

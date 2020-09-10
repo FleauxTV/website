@@ -91,6 +91,11 @@ a {
 
 .featured-colored-section p {
     color: #FFFFFF;
+    font-size:1.15rem;
+}
+
+.featured-section p {
+    font-size:1.15rem;
 }
 
 .page-footer {
