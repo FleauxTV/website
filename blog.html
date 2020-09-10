@@ -3,23 +3,50 @@ layout: page
 title: Blog
 ---
 
-  <div class="container">
+<div class="container"> <!-- Article 1 -->
+  {% for post in site.posts %}
+
+  {% if forloop.first == true %}
     <div class="row">
-      {% for post in site.posts %}
-      <div class="col-lg-4 p-0">
-        <a href="{{ post.url }}" style="text-decoration:none;color:inherit;">
-        <div class="mx-2 border">
-          <div class="p-3">
-            <h4 class="text-danger;">{{ post.title }}</h4>
-          </div>
-          <img src="{{ site.baseurl }}{{ post.image }}" class="img-fluid">
-          <div class="p-3 my-1">
-            {{ post.excerpt | strip_html | truncate: 500 }}
-          </div>
+      <div class="card mb-4">
+        <img class="card-img-top" src="{{ site.baseurl }}{{ post.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">{{ post.title }}</h2>
+          <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
+          <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
         </div>
-        </a>
+        <div class="card-footer text-muted">
+          Posté le 
+          {%- assign date_format = "%-d %B %Y" -%}
+          {{ page.date | date: date_format }}
+        </div>
       </div>
-      {% endfor %}
     </div>
+
+  {% else %}
+
+  <!-- Autre article -->
+	<div class="row">
+
+	<div class="col-lg-6">
+		<div class="card mb-4">
+			<img class="card-img-top" src="{{ site.baseurl }}{{ post.image }}" alt="Card image cap">
+			<div class="card-body">
+				<h2 class="card-title">{{ post.title }}</h2>
+				 <p class="card-text">{{ post.excerpt | strip_html | truncate: 500 }}</p>
+				 <a href="{{ post.url }}" class="btn btn-primary">Lire l'article →</a>
+			</div>
+			<div class="card-footer text-muted">
+        Posté le 
+        {%- assign date_format = "%-d %B %Y" -%}
+        {{ page.date | date: date_format }}
+			</div>
+		</div>	
+	</div>
+	
   </div>
+  {% endif %}
+
+  {% endfor %}
+</div>
 

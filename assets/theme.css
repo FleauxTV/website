@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: #673ab7 !important;
+    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
 }
 
 .navbar a {
@@ -42,12 +42,12 @@ pre {
 
 h1 {
     font-weight:bold;
-    color: #673ab7;
+    color: #3a6cb7;
     margin-bottom: 0.8em;
 }
 
 a {
-    color: #673ab7;
+    color: #3a6cb7;
     text-decoration: none !important;
 }
 
@@ -56,7 +56,7 @@ a {
     position: absolute;
     display:block;
     width: 50px;
-    border: 4px solid #673ab7;
+    border: 4px solid #3a6cb7;
 }
 
 .sitebanner {
@@ -69,12 +69,12 @@ a {
     color: #FFFFFF;
 }
 
-.card {
-    border:none;
+.card-footer {
+    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff);
 }
 
 .featured-colored-section {
-    background-color: #673ab7;
+    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
 }
 
 .featured-colored-section h1 {
@@ -92,3 +92,13 @@ a {
 .featured-colored-section p {
     color: #FFFFFF;
 }
+
+.page-footer {
+    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
+}
+
+.page-footer a {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
