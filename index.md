@@ -2,7 +2,7 @@
 banniere:
   titre: FleauxTV
   soustitre: "Graphiste, motion designer et monteur vidéo. "
-  banniere: /uploads/banner.png
+  banniere: /uploads/banner.jpg
 miniatures:
   titre: GRAPHIC DESIGN
   description: Je réalises des éléments graphiques divers tels que des miniatures
