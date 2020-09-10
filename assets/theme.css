@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
+    background: linear-gradient(0.25turn, rgb(58, 108, 183), #00c4ff) !important;
 }
 
 .navbar a {
@@ -70,11 +70,11 @@ a {
 }
 
 .card-footer {
-    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff);
+    background: linear-gradient(0.25turn, rgb(58, 108, 183), #00c4ff);
 }
 
 .featured-colored-section {
-    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
+    background: linear-gradient(0.25turn, rgb(58, 108, 183), #00c4ff) !important;
 }
 
 .featured-colored-section h1 {
@@ -94,7 +94,7 @@ a {
 }
 
 .page-footer {
-    background-color: linear-gradient(1turn, rgb(58, 108, 183), #00c4ff) !important;
+    background: linear-gradient(0.25turn, rgb(58, 108, 183), #00c4ff) !important;
 }
 
 .page-footer a {
