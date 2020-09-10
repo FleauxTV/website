@@ -10,7 +10,9 @@ layout: default
             <p class="text-muted">
               <span>Posté le </span>
               <span>{%- assign date_format = "%-d %B %Y" -%}
-              {{ page.date | date: date_format }}</p>span>
+                {{ page.date | date: date_format }}
+              </span>  
+            </p>
             </h5>
         <img src="{{ site.baseurl }}{{ page.image }}" class="img-fluid w-100" alt="Responsive image">		
       </div>
