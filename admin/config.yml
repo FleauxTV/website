@@ -117,13 +117,13 @@ collections:
                     - {label: "Icone font-awesome", name: "icone", widget: "string"}
                     - {label: "Lien réseau", name: "lien", widget: "string"}     
 
-  - name: "Projets"
+  - name: "projets"
     label: "Projets"
     folder: "_projets"
     create: true
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
-      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
       - {label: "Image d'en tête", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "markdown"}
       - label: "Gallerie"
