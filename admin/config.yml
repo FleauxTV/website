@@ -96,6 +96,7 @@ collections:
             fields:
               - {label: "Titre", name: "titre", widget: "string"}
               - {label: "Description", name: "description", widget: "string"}
+              - {label: "Nom projet", name: "projet", widget: "string", required: false}
               - {label: "Lien projet", name: "lien", widget: "string", required: false}
               - label: "slider"
                 name: "slider"
@@ -138,3 +139,23 @@ collections:
                     fields:
                     - {label: "Icone font-awesome", name: "icone", widget: "string"}
                     - {label: "Lien réseau", name: "lien", widget: "string"}     
+
+  - name: "Projets"
+    label: "Projets"
+    folder: "_projets"
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "titre", widget: "string"}
+      - {label: "Image d'en tête", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Gallerie"
+        name: "gallerie"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Titre de l'image", name: "titre", widget: "string"}             
+      - {label: "Texte", name: "body", widget: "markdown"}
+
+
