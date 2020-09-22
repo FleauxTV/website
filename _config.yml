@@ -3,6 +3,7 @@ plugins:
   - jekyll-sitemap
 include:
   - _pages
+  - _projets
 theme: jekyll-theme-cayman
 repository: FleauxTV/website
 header_pages:
