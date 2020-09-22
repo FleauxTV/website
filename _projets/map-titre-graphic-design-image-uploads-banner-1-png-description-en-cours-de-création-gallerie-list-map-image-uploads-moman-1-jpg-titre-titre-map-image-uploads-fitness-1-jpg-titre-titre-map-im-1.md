@@ -1,7 +1,7 @@
 ---
 titre: Graphic design
 image: /uploads/banner-1.png
-description: En cours de création
+description: En cours de création.
 gallerie:
   - image: /uploads/moman-1.jpg
     titre: Titre
