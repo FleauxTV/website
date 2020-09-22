@@ -8,16 +8,14 @@ layout: default
         <!-- BASE PROJET -->
         <h1 class="text-center">{{ page.title | escape }}</h1>
         
-        <!-- Gallery -->
         <div class="row">
         {% if page.gallerie %}
             {% for gallerie in page.gallerie %}
-            <div class="col-lg-4 m-2">
+            <div class="col-lg-4 my-2">
                 <a href="{{ site.baseurl }}{{ gallerie.image }}" data-toggle="lightbox">
                     <img src="{{ site.baseurl }}{{ gallerie.image }}" class="img-fluid" alt="Responsive image">
                 </a>
             </div>
-            <!-- Gallery --> 
             {% endfor %}
 
         {% else %} <!-- pas de else pour ne rien afficher -->

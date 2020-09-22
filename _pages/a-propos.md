@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: A propos
 author: FleauxTV
 thumbnail image: /uploads/unnamed.png
 titre: A propos
