@@ -1,5 +1,5 @@
 ---
-titre: Graphic design
+titre: Graphic design 2 (OLD)
 image: /uploads/banner-1.png
 description: En cours de création.
 gallerie:
