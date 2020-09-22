@@ -46,6 +46,7 @@ collections:
   - name: "Page"
     label: "Pages"
     folder: "_pages"
+    layout: page
     create: true
     slug: "{{slug}}"
     fields: # The fields for each pages
@@ -121,6 +122,7 @@ collections:
     label: "Projets"
     folder: "_projets"
     create: true
+    layout: project
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Titre", name: "title", widget: "string"}
