@@ -15,6 +15,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:path/
+  projets:
+    output: true 
+    permalink: /:path/  
 title: FleauxTV - Graphiste, Motion designer & Monteur vidéo
 exclude:
   - Gemfile
