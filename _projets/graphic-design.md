@@ -1,4 +1,5 @@
 ---
+layout: projet
 titre: Graphic design
 image: /uploads/banner-1.png
 description: En cours de création
